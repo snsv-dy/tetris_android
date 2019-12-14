@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <EditTextPreference
+        android:key="move_val"
+        android:title="moving speed"
+        android:summary="How many pixels you have to drag for move to be registered"
+        android:defaultValue="40"
+        android:inputType="number"></EditTextPreference>
+    <EditTextPreference
+        android:key="drop_val"
+        android:title="droping value"
+        android:summary="Same as with moving, but for hard falling"
+        android:defaultValue="120"
+        android:inputType="number"></EditTextPreference>
+</PreferenceScreen>
